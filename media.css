@@ -1,0 +1,38 @@
+/******************strat media*****************************/
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {  
+    .secourServices{
+        margin-top: 250px;
+    }
+   
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .secourServices{
+        margin-top: 170px;
+    }
+    .contentoverdivhead{
+        padding-top:200px ;
+    }
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .secourServices{
+        margin-top: 170px;
+    }
+    .contentoverdivhead{
+        padding-top:250px ;
+    }
+}
+/* Large screens ----------- */
+@media only screen and (min-width : 1200px) {
+    .secourServices{
+        margin-top: 170px;
+    }
+    .contentoverdivhead{
+        padding-top:220px ;
+    }
+}
+
+
+/******************end media*****************************/

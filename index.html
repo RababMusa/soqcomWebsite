@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>سوق كوم</title>
+    <style>
+        .filterDiv {
+  /* float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px; */
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="secheasocial">
+            <div class="container">
+            <div class="row secFirsthead">
+                <div class="col-md-6 col-12">
+                    <div>
+                        <div class="contactinfo">
+                            <div>
+                                <i class="fas fa-shopping-cart lblcontact"></i>
+                            </div>
+                            <div>
+                                <i class="fas fa-phone iconcontact"></i>
+                                <label class="lblcontact">00905376046422</label>
+                            </div>
+                            <div>
+                                <i class="fas fa-envelope iconcontact"></i>
+                                <label class="lblcontact">Info@tasweek.com</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="row secFirsthead">
+                        <div class="col-md-6 col-12">
+                            <div class="divsocialIconHeader">
+                                <i class="fab fa-facebook-f socialIconHeader"></i>
+                                <i class="fab fa-twitter socialIconHeader"></i>
+                                <i class="fab fa-instagram socialIconHeader"></i>
+                                <i class="fab fa-linkedin-in socialIconHeader"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="btnslog">
+                                <div class="divbtnlog">
+                                    <button class="btnlogin">الدخول</button>
+                                </div>
+                                <div class="divbtnlog">
+                                    <button class="btnlogin">الاشتراك</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                  
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div class="secnavhead">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navheadlinks">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <a class="navbar-brand" href="#">
+                      <div class="divimglogohead">
+                      <img src="img/logo.png" class="imglgoheader" alt="">
+                      </div>
+                  </a>
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">الرئيسية<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">الخدمات التجارية</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#">الخدمات المهنية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">الخدمات الطبية</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#">من نحن</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#">تواصل معنا</a>
+                      </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 searchhead" type="search" placeholder="بحث" aria-label="Search">
+                  </form>
+                  <div class="divegyptFlag">
+                      <img src="img/egypt.png" class="egyptFlag" alt="">
+                  </div>
+                  <div class="divlang">
+                    <label class="lbllang"> English</label>
+                   <div class="divegyptFlag">
+                      <img src="img/united-kingdom.png" class="egyptFlag" alt="">
+                  </div>
+                </div>
+                </div>
+              </nav>
+        </div>
+        <div class="divheadimg">
+         <div class="overdivheadimg">
+             <div class="contentoverdivhead">
+
+             <div class="secsearch">
+                <div class="contentsecsearch">
+                 <h5 class="hsearch">بحث متقدم</h5>
+                <div class="row">
+                    <div class="col-md-4 col-12 dropsearch">
+                        <p class="psecsearch">نوع الخدمة</p>
+                        <div class="dropdown  show">
+                            <a class="btn  dropdownsecsearch dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                نوع الخدمة
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">نوع الخدمة</a>
+                              <a class="dropdown-item" href="#">نوع الخدمة</a>
+                              <a class="dropdown-item" href="#">نوع الخدمة</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 col-12 dropsearch">
+                        <p class="psecsearch"> الاقسام</p>
+                        <div class="dropdown  show">
+                            <a class="btn dropdownsecsearch dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                الاقسام
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">الاقسام</a>
+                              <a class="dropdown-item" href="#">الاقسام</a>
+                              <a class="dropdown-item" href="#">الاقسام</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 col-12 dropsearch">
+                        <p class="psecsearch">اختر بلد</p>
+                        <div class="dropdown  show">
+                            <a class="btn dropdownsecsearch dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                اختر بلد
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">اختر بلد</a>
+                              <a class="dropdown-item" href="#">اختر بلد</a>
+                              <a class="dropdown-item" href="#">اختر بلد</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 col-12 dropsearch">
+                        <p class="psecsearch">اختر محافظة</p>
+                        <div class="dropdown  show">
+                            <a class="btn dropdownsecsearch dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                اختر محافظة
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">اختر محافظة</a>
+                              <a class="dropdown-item" href="#">اختر محافظة</a>
+                              <a class="dropdown-item" href="#">اختر محافظة</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 col-12 dropsearch">
+                        <p class="psecsearch">اختر المدينة</p>
+                        <div class="dropdown  show">
+                            <a class="btn dropdownsecsearch dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                اختر المدينة
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">اختر المدينة</a>
+                              <a class="dropdown-item" href="#">اختر المدينة</a>
+                              <a class="dropdown-item" href="#">اختر المدينة</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 col-12 dropsearch">
+                        <p class="psecsearch">فلاتر أخرى</p>
+                        <div class="dropdown  show">
+                            <a class="btn dropdownsecsearch dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                فلاتر أخرى
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">فلاتر أخرى</a>
+                              <a class="dropdown-item" href="#">فلاتر أخرى</a>
+                              <a class="dropdown-item" href="#">فلاتر أخرى</a>
+                            </div>
+                          </div>
+                    </div>
+                 
+                </div>
+                <div class="divbtnresultSearch">
+                    <button class="btnresultSearch">عرض النتائج</button>
+                </div>
+             </div>
+            </div>
+         </div>
+        </div>
+        </div>
+        <div class="secourServices">
+            <h3 class="hprofessionals" >خدماتنا</h3>
+            <div class="container">
+            <div class="row"  id="myBtnContainer">
+                <!-- <button class="btn active" onclick="filterSelection('all')"> Show all</button> -->
+                <div class="col-lg-3 col-md-6 col-12 btn " onclick="filterSelection('commerce')">
+                    <div class="divroundservices">
+                        <div class="roundservices">
+                            <img src="img/online-shopping.png" class="imgroundservices" alt="">
+                        </div>
+                        <p>الخدمات التجارية</p>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 btn" onclick="filterSelection('rest')">
+                    <div class="divroundservices ">
+                        <div class="roundservices">
+                            <img src="img/Group 8245.png" class="imgroundservices" alt="">
+                        </div>
+                        <p>خدمات مطاعم</p>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 btn" onclick="filterSelection('medicine')">
+                    <div class="divroundservices">
+                        <div class="roundservices">
+                            <img src="img/XMLID_373_.png" class="imgroundservices" alt="">
+                        </div>
+                        <p>الخدمات الطبية</p>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 btn" onclick="filterSelection('jobs')">
+                    <div class="divroundservices">
+                        <div class="roundservices">
+                            <img src="img/hammer.png" class="imgroundservices" alt="">
+                        </div>
+                        <p>خدمات مهنية</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 filterDiv commerce">
+                    <div class="divboxservices">
+                        <div class="boxrest boxservices">
+                            <div class="flexIconandImgrest">
+                              <div class="boximgrest boximgservices">
+                                  <img src="img/أطفال.jpg" class="imgboximgrest imgboximgservices" alt="">
+                                  <div class="iconimgdoctors">
+                                      <img src="img/أطفال1.png"  class="icondoctors"  alt="">
+                                  </div>
+                                </div>
+                                <div class="divLoveiconboxrest">
+                                  <i class="far fa-heart loverest"></i>
+                                </div>
+                            </div>
+                           
+                            <div class="boxcontentrest boxcontetservices">
+                              <p class=" pTitlesboxservices">أطفال وحديثي الولادة</p>
+                              
+                                <a href="#"><label class="lblmoreservices">زيادة</label></a> 
+                            
+                            </div>
+                        </div>
+                        
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 filterDiv rest">
+                <div class="divboxservices">
+                    <div class="boxrest boxservices">
+                        <div class="flexIconandImgrest">
+                          <div class="boximgrest boximgservices">
+                              <img src="img/قلب.jpg" class="imgboximgrest imgboximgservices" alt="">
+                              <div class="iconimgdoctors">
+                                  <img src="img/جراحة قلب 1.png"  class="icondoctors"  alt="">
+                              </div>
+                            </div>
+                            <div class="divLoveiconboxrest">
+                              <i class="far fa-heart loverest"></i>
+                            </div>
+                        </div>
+                       
+                        <div class="boxcontentrest boxcontetservices">
+                          <p class=" pTitlesboxservices">أمراض القلب والأوعية الدموية</p>
+                          
+                            <a href="#"><label class="lblmoreservices">زيادة</label></a> 
+                        
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 filterDiv medicine ">
+            <div class="divboxservices">
+                <div class="boxrest boxservices">
+                    <div class="flexIconandImgrest">
+                      <div class="boximgrest boximgservices">
+                          <img src="img/أطفال.jpg" class="imgboximgrest imgboximgservices" alt="">
+                          <div class="iconimgdoctors">
+                              <img src="img/أطفال1.png"  class="icondoctors"  alt="">
+                          </div>
+                        </div>
+                        <div class="divLoveiconboxrest">
+                          <i class="far fa-heart loverest"></i>
+                        </div>
+                    </div>
+                   
+                    <div class="boxcontentrest boxcontetservices">
+                      <p class=" pTitlesboxservices">أطفال وحديثي الولادة</p>
+                      
+                        <a href="#"><label class="lblmoreservices">زيادة</label></a> 
+                    
+                    </div>
+                </div>
+                
+        </div>
+    </div>
+        <div class="col-lg-3 col-md-6 col-12 jobs ">
+            <div class="divboxservices">
+                <div class="boxrest boxservices">
+                    <div class="flexIconandImgrest">
+                      <div class="boximgrest boximgservices">
+                          <img src="img/قلب.jpg" class="imgboximgrest imgboximgservices" alt="">
+                          <div class="iconimgdoctors">
+                              <img src="img/جراحة قلب 1.png"  class="icondoctors"  alt="">
+                          </div>
+                        </div>
+                        <div class="divLoveiconboxrest">
+                          <i class="far fa-heart loverest"></i>
+                        </div>
+                    </div>
+                   
+                    <div class="boxcontentrest boxcontetservices">
+                      <p class=" pTitlesboxservices">أمراض القلب والأوعية الدموية</p>
+                      
+                        <a href="#"><label class="lblmoreservices">زيادة</label></a> 
+                    
+                    </div>
+                </div>
+                
+        </div>
+    </div>
+    
+        
+        </div>
+        <div class="divbtnmorerest">
+            <button class="btnmorerest btnmoreServices">شاهد المزيد</button>
+        </div>
+        </div>
+  
+        <div class="secrest">
+            <h3 class="hprofessionals" >المحلات التجارية</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div>
+                            <img src="img/commercial-removebg-preview.png" class="vectorimgs">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12">
+                        <div class="row">
+                          <div class="col-lg-3 col-md-6 col-12">
+                              <div class="boxrest">
+                                  <div class="flexIconandImgrest">
+                                    <div class="boximgrest">
+                                        <img src="img/خضار.jpg " class="imgboximgrest" alt="">
+                                      </div>
+                                      <div class="divLoveiconboxrest">
+                                        <i class="far fa-heart loverest"></i>
+                                      </div>
+                                  </div>
+                                 
+                                  <div class="boxcontentrest">
+                                    <p class="pTiltleboxrest">متجر السعادة</p>
+                                  <p class="pTiltleboxrest pTiltlejobboxrest ">تاجر الجملة</p>
+                                    <div class="flexPlaceboxrest">
+                                        <div class="placeboxrest">
+                                            <div class="iconandplaceboxrest">
+                                                <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                                <label >القاهرة</label>
+                                            </div>
+                                            <div>
+                                                <label class="lblaway" >تبعد</label>
+                                                <label >30 kg</label>
+
+                                            </div>
+                                        </div>
+                                        <div class="placeboxrest">
+                                            <div class="iconandplaceboxrest">
+                                                <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                                <label >الجيزة</label>
+                                            </div>
+                                            <div>
+                                                <label class="lblaway" >تبعد</label>
+                                                <label >100 kg</label>
+
+                                            </div>
+                                        </div>
+                                        <div class="placeboxrest">
+                                           <a href="#"><label class="lblmorerest">المزيد</label></a> 
+                                        </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                          <div class="col-lg-3 col-md-6 col-12">
+                            <div class="boxrest">
+                                <div class="flexIconandImgrest">
+                                  <div class="boximgrest">
+                                      <img src="img/خضار.jpg" class="imgboximgrest" alt="">
+                                    </div>
+                                    <div class="divLoveiconboxrest">
+                                      <i class="far fa-heart loverest"></i>
+                                    </div>
+                                </div>
+                               
+                                <div class="boxcontentrest">
+                                  <p class="pTiltleboxrest">متجر السعادة</p>
+                                  <p class="pTiltleboxrest pTiltlejobboxrest ">تاجر الجملة</p>
+                                  <div class="flexPlaceboxrest">
+                                      <div class="placeboxrest">
+                                          <div class="iconandplaceboxrest">
+                                              <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                              <label >القاهرة</label>
+                                          </div>
+                                          <div>
+                                              <label class="lblaway" >تبعد</label>
+                                              <label >30 kg</label>
+
+                                          </div>
+                                      </div>
+                                      <div class="placeboxrest">
+                                          <div class="iconandplaceboxrest">
+                                              <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                              <label >الجيزة</label>
+                                          </div>
+                                          <div>
+                                              <label class="lblaway" >تبعد</label>
+                                              <label >100 kg</label>
+
+                                          </div>
+                                      </div>
+                                      <div class="placeboxrest">
+                                         <a href="#"><label class="lblmorerest">المزيد</label></a> 
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="boxrest">
+                                <div class="flexIconandImgrest">
+                                  <div class="boximgrest">
+                                      <img src="img/خضار.jpg" class="imgboximgrest" alt="">
+                                    </div>
+                                    <div class="divLoveiconboxrest">
+                                      <i class="far fa-heart loverest"></i>
+                                    </div>
+                                </div>
+                               
+                                <div class="boxcontentrest">
+                                  <p class="pTiltleboxrest">متجر السعادة</p>
+                                  <p class="pTiltleboxrest pTiltlejobboxrest ">تاجر الجملة</p>
+                                  <div class="flexPlaceboxrest">
+                                      <div class="placeboxrest">
+                                          <div class="iconandplaceboxrest">
+                                              <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                              <label >القاهرة</label>
+                                          </div>
+                                          <div>
+                                              <label class="lblaway" >تبعد</label>
+                                              <label >30 kg</label>
+
+                                          </div>
+                                      </div>
+                                      <div class="placeboxrest">
+                                          <div class="iconandplaceboxrest">
+                                              <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                              <label >الجيزة</label>
+                                          </div>
+                                          <div>
+                                              <label class="lblaway" >تبعد</label>
+                                              <label >100 kg</label>
+
+                                          </div>
+                                      </div>
+                                      <div class="placeboxrest">
+                                         <a href="#"><label class="lblmorerest">المزيد</label></a> 
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="boxrest">
+                                <div class="flexIconandImgrest">
+                                  <div class="boximgrest">
+                                      <img src="img/خضار.jpg" class="imgboximgrest" alt="">
+                                    </div>
+                                    <div class="divLoveiconboxrest">
+                                      <i class="far fa-heart loverest"></i>
+                                    </div>
+                                </div>
+                               
+                                <div class="boxcontentrest">
+                                  <p class="pTiltleboxrest">متجر السعادة</p>
+                                  <p class="pTiltleboxrest pTiltlejobboxrest ">تاجر الجملة</p>
+                                  <div class="flexPlaceboxrest">
+                                      <div class="placeboxrest">
+                                          <div class="iconandplaceboxrest">
+                                              <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                              <label >القاهرة</label>
+                                          </div>
+                                          <div>
+                                              <label class="lblaway" >تبعد</label>
+                                              <label >30 kg</label>
+
+                                          </div>
+                                      </div>
+                                      <div class="placeboxrest">
+                                          <div class="iconandplaceboxrest">
+                                              <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                              <label >الجيزة</label>
+                                          </div>
+                                          <div>
+                                              <label class="lblaway" >تبعد</label>
+                                              <label >100 kg</label>
+
+                                          </div>
+                                      </div>
+                                      <div class="placeboxrest">
+                                         <a href="#"><label class="lblmorerest">المزيد</label></a> 
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="divbtnmorerest">
+                    <button class="btnmorerest">شاهد المزيد</button>
+                </div>
+            </div>
+        </div>
+        <div class="secprofessionals">
+            <h3 class="hprofessionals" >اختر طبيبك</h3>
+            <div class="container">
+               
+                    <div class="client-logo-slider">
+                        <div style="display: flex; justify-content: space-around;">
+                    <div class=" single-item">
+                        <div class="boxprofessionals ">
+                            <div class="divimgboxrofessionals">
+                                <img src="img/woman-doctor-office.png" alt="" class="imgboxrofessionals">
+                            </div>
+                            <p class="nameboxrofessionals">سالي محمد</p>
+                            <p class="titleboxrofessionals">ممارس عام</p>
+                            
+                        </div>
+                    </div>
+                    <div class=" single-item">
+                        <div class="boxprofessionals single-item img-container">
+                            <div class="divimgboxrofessionals">
+                                <img src="img/Mask Group 11.png" alt="" class="imgboxrofessionals">
+                            </div>
+                            <p class="nameboxrofessionals">أحمد سالم</p>
+                            <p class="titleboxrofessionals">ممارس عام</p>
+                            
+                        </div>
+                    </div>
+                    <div class=" single-item">
+                        <div class="boxprofessionals ">
+                                 <!-- single-item img-container -->
+                            <div class="divimgboxrofessionals">
+                                <img src="img/woman-doctor-office.png" alt="" class="imgboxrofessionals">
+                            </div>
+                            <p class="nameboxrofessionals">سالي محمد</p>
+                            <p class="titleboxrofessionals">ممارس عام</p>
+                            
+                        </div>
+                    </div>
+                    <div class=" single-item">
+                        <div class="boxprofessionals">
+                            <div class="divimgboxrofessionals">
+                                <img src="img/Mask Group 11.png" alt="" class="imgboxrofessionals">
+                            </div>
+                            <p class="nameboxrofessionals">أحمد سالم</p>
+                            <p class="titleboxrofessionals">ممارس عام</p>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="secrest">
+            <h3 class="hprofessionals" >المطاعم والكافيهات</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div>
+                            <img src="img/التقاط-removebg-preview.png" class="vectorimgs">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12">
+                        <div class="row">
+                          <div class="col-lg-3 col-md-6 col-12">
+                              <div class="boxrest">
+                                  <div class="flexIconandImgrest">
+                                    <div class="boximgrest">
+                                        <img src="img/دجاج.jpg" class="imgboximgrest" alt="">
+                                      </div>
+                                      <div class="divLoveiconboxrest">
+                                        <i class="far fa-heart loverest"></i>
+                                      </div>
+                                  </div>
+                                 
+                                  <div class="boxcontentrest">
+                                    <p class="pTiltleboxrest">مطعم السعادة</p>
+                                    <div class="flexPlaceboxrest">
+                                        <div class="placeboxrest">
+                                            <div class="iconandplaceboxrest">
+                                                <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                                <label >القاهرة</label>
+                                            </div>
+                                            <div>
+                                                <label class="lblaway" >تبعد</label>
+                                                <label >30 kg</label>
+
+                                            </div>
+                                        </div>
+                                        <div class="placeboxrest">
+                                            <div class="iconandplaceboxrest">
+                                                <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                                <label >الجيزة</label>
+                                            </div>
+                                            <div>
+                                                <label class="lblaway" >تبعد</label>
+                                                <label >100 kg</label>
+
+                                            </div>
+                                        </div>
+                                        <div class="placeboxrest">
+                                           <a href="#"><label class="lblmorerest">المزيد</label></a> 
+                                        </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                          <div class="col-lg-3 col-md-6 col-12">
+                            <div class="boxrest">
+                                <div class="flexIconandImgrest">
+                                  <div class="boximgrest">
+                                      <img src="img/دجاج.jpg" class="imgboximgrest" alt="">
+                                    </div>
+                                    <div class="divLoveiconboxrest">
+                                      <i class="far fa-heart loverest"></i>
+                                    </div>
+                                </div>
+                               
+                                <div class="boxcontentrest">
+                                  <p class="pTiltleboxrest">مطعم السعادة</p>
+                                  <div class="flexPlaceboxrest">
+                                      <div class="placeboxrest">
+                                          <div class="iconandplaceboxrest">
+                                              <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                              <label >القاهرة</label>
+                                          </div>
+                                          <div>
+                                              <label class="lblaway" >تبعد</label>
+                                              <label >30 kg</label>
+
+                                          </div>
+                                      </div>
+                                      <div class="placeboxrest">
+                                          <div class="iconandplaceboxrest">
+                                              <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                              <label >الجيزة</label>
+                                          </div>
+                                          <div>
+                                              <label class="lblaway" >تبعد</label>
+                                              <label >100 kg</label>
+
+                                          </div>
+                                      </div>
+                                      <div class="placeboxrest">
+                                         <a href="#"><label class="lblmorerest">المزيد</label></a> 
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="boxrest">
+                                <div class="flexIconandImgrest">
+                                  <div class="boximgrest">
+                                      <img src="img/دجاج.jpg" class="imgboximgrest" alt="">
+                                    </div>
+                                    <div class="divLoveiconboxrest">
+                                      <i class="far fa-heart loverest"></i>
+                                    </div>
+                                </div>
+                               
+                                <div class="boxcontentrest">
+                                  <p class="pTiltleboxrest">مطعم السعادة</p>
+                                  <div class="flexPlaceboxrest">
+                                      <div class="placeboxrest">
+                                          <div class="iconandplaceboxrest">
+                                              <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                              <label >القاهرة</label>
+                                          </div>
+                                          <div>
+                                              <label class="lblaway" >تبعد</label>
+                                              <label >30 kg</label>
+
+                                          </div>
+                                      </div>
+                                      <div class="placeboxrest">
+                                          <div class="iconandplaceboxrest">
+                                              <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                              <label >الجيزة</label>
+                                          </div>
+                                          <div>
+                                              <label class="lblaway" >تبعد</label>
+                                              <label >100 kg</label>
+
+                                          </div>
+                                      </div>
+                                      <div class="placeboxrest">
+                                         <a href="#"><label class="lblmorerest">المزيد</label></a> 
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="boxrest">
+                                <div class="flexIconandImgrest">
+                                  <div class="boximgrest">
+                                      <img src="img/دجاج.jpg" class="imgboximgrest" alt="">
+                                    </div>
+                                    <div class="divLoveiconboxrest">
+                                      <i class="far fa-heart loverest"></i>
+                                    </div>
+                                </div>
+                               
+                                <div class="boxcontentrest">
+                                  <p class="pTiltleboxrest">مطعم السعادة</p>
+                                  <div class="flexPlaceboxrest">
+                                      <div class="placeboxrest">
+                                          <div class="iconandplaceboxrest">
+                                              <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                              <label >القاهرة</label>
+                                          </div>
+                                          <div>
+                                              <label class="lblaway" >تبعد</label>
+                                              <label >30 kg</label>
+
+                                          </div>
+                                      </div>
+                                      <div class="placeboxrest">
+                                          <div class="iconandplaceboxrest">
+                                              <i class="fas fa-map-marker-alt icongpsrest"></i>
+                                              <label >الجيزة</label>
+                                          </div>
+                                          <div>
+                                              <label class="lblaway" >تبعد</label>
+                                              <label >100 kg</label>
+
+                                          </div>
+                                      </div>
+                                      <div class="placeboxrest">
+                                         <a href="#"><label class="lblmorerest">المزيد</label></a> 
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="divbtnmorerest">
+                    <button class="btnmorerest">شاهد المزيد</button>
+                </div>
+            </div>
+        </div>
+        <div class="secprofessionals">
+            <h3 class="hprofessionals" >أفضل المهنيين</h3>
+            <div class="container">
+               
+                <div class="client-logo-slider">
+                    <div style="display: flex; justify-content: space-around;">
+                <div class=" single-item">
+                    <div class="boxprofessionals ">
+                        <div class="divimgboxrofessionals">
+                            <img src="img/ع76نه8.JPG" alt="" class="imgboxrofessionals">
+                        </div>
+                        <p class="nameboxrofessionals">سالي محمد</p>
+                        <p class="titleboxrofessionals">مهندسة</p>
+                        
+                    </div>
+                </div>
+                <div class=" single-item">
+                    <div class="boxprofessionals single-item img-container">
+                        <div class="divimgboxrofessionals">
+                            <img src="img/اغفاغف.JPG" alt="" class="imgboxrofessionals">
+                        </div>
+                        <p class="nameboxrofessionals">أحمد سالم</p>
+                        <p class="titleboxrofessionals">مقاول</p>
+                        
+                    </div>
+                </div>
+                <div class=" single-item">
+                    <div class="boxprofessionals ">
+                             <!-- single-item img-container -->
+                        <div class="divimgboxrofessionals">
+                            <img src="img/ع76نه8.JPG" alt="" class="imgboxrofessionals">
+                        </div>
+                        <p class="nameboxrofessionals">سالي محمد</p>
+                        <p class="titleboxrofessionals">مهندسة</p>
+                        
+                    </div>
+                </div>
+                <div class=" single-item">
+                    <div class="boxprofessionals">
+                        <div class="divimgboxrofessionals">
+                            <img src="img/اغفاغف.JPG" alt="" class="imgboxrofessionals">
+                        </div>
+                        <p class="nameboxrofessionals">أحمد سالم</p>
+                        <p class="titleboxrofessionals">مقاول</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="secdownload">
+            <div class="oversecdownload">
+                <h3>تحميل التطبيق</h3>
+                <p class="pdownload">الأن يمكنك تحميل تطبيق تسوق دوت كوم من خلال بلاي استور و ابل استور </p>
+                <div class="divstoresicon">
+                    <div class="divimgdownloadstores">
+                        <img src="img/apple-icon.png" class="imgdownloadstores">
+                    </div>
+                    <div class="divimgdownloadstores">
+                        <img src="img/google-play-icon.png" class="imgdownloadstores">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row rowfooter">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="aboutInFooter">
+                        <h5 class="haboutInFooter">تعريف الموقع </h5>
+                        <p class="paboutInFooter">تسوق دوت كوم موقع وتطبيق يستطيع كل من لديه نشاط تجاري كالمحلات والمطاعم والاطباء والصنايعية التسجيل من خلالنا لعرض جميع اعمالهم للباحثين عنها من داخل كل منطقة او المناطق المجاورة كما يستطيع شراء المنتج وطلب من المطعم وأيضا حجز موعد الطبيب وإيجاد صنايعي محترف</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 aboutInFooter">
+                    <div class="centerimgfooter">
+                        <div class="divimglogofooter">
+                        <img src="img/logo.png" class="imglgo" alt="">
+                    </div>
+                    </div>
+                    <div class="linksfooter">
+                        <div><p><a href="#" class="afooter">الرئيسية</a></p></div>
+                        <div><p><a href="#" class="afooter">من نحن</a></p></div>
+                        <div><p><a href="#" class="afooter">كلمة الأمين العام</a></p></div>
+                        <div><p><a href="#" class="afooter">الأخبار</a></p></div>
+                        <div><p><a href="#" class="afooter">تراجم</a></p></div>
+                        <div><p><a href="#" class="afooter">الأبحاث</a></p></div>
+                        <div><p><a href="#" class="afooter">مشاريعنا</a></p></div>
+                        <div><p><a href="#" class="afooter">طب فتوى</a></p></div>
+                        <div><p><a href="#" class="afooter">إصداراتنا</a></p> </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="aboutInFooter">
+                        <h5 class="haboutInFooter">بيانات التواصل </h5>
+                        <div class="contactinfo">
+                        <div>
+                            <i class="fas fa-phone iconcontact"></i>
+                            <label class="lblcontact">00905376046422</label>
+                        </div>
+                        <div>
+                            <i class="fas fa-envelope iconcontact"></i>
+                            <label class="lblcontact">Info@tasweek.com</label>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+           <div class="divcontacticons">
+               <div >
+                   <div class="circleIcons">
+                    <i class="fab fa-facebook-f"></i>
+                   </div>
+               </div>
+               <div >
+                <div class="circleIcons">
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+            <div >
+                <div class="circleIcons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div >
+                <div class="circleIcons">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+               
+           </div>
+        </div>
+    </footer>
+    <script>
+        filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

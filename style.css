@@ -1,0 +1,456 @@
+html{
+    direction: rtl;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F3F3F3;
+}
+p, label{
+    margin-bottom: 0px;
+}
+
+/***********************Start Main************************************/
+.imglgoheader{
+    width: 100%;
+    height: auto;
+}
+.divimglogohead{
+    max-width: 100px;
+}
+.searchhead{
+    border-radius: 20px;
+    border: 1px solid #08C6F2;
+    margin-left: 10px;
+}
+.secheasocial{
+    background-color: #12758D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.socialIconHeader{
+    margin-right: 5px;
+    color: #08C6F2;
+}
+.secFirsthead{
+    align-items: center;
+}
+.btnlogin{
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    background-color: #08C6F2;
+    padding: 5px 30px;
+    max-width: 100px;
+    text-align: center;
+}
+.btnslog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.divbtnlog{
+    margin-bottom: 5px;
+}
+.divegyptFlag{
+    max-width:20px;
+    margin-left: 10px;
+}
+.navheadlinks{
+    text-align: right;
+}
+.egyptFlag{
+    width: 100%;
+    height: auto;
+}
+.divlang{
+    display: flex;
+    align-items: baseline;
+}
+.lbllang{
+    font-size: 12px;
+}
+.dropdown-toggle::after{
+    color: #12758D;
+}
+.dropdownsecsearch{
+    background-color: #fff;
+    border: 1px solid #707070;
+    color: #707070;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divheadimg{
+    background-image: url('../img/headerimg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    margin-bottom: 30px;
+}
+.overdivheadimg{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 400px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* position: relative; */
+}
+.contentsecsearch{
+    height: fit-content;
+}
+
+.secsearch{
+    background-color: #fff;
+    box-shadow: 3px 4px 5px #fff;
+    border-radius: 8px;
+    max-width: 700px;
+    /* margin: auto; */
+    padding: 20px;
+    /* position:absolute;
+    margin-top: 200px;
+    margin-right: 350px; */
+}
+.btnresultSearch{
+    border: 1px solid #08C6F2;
+    color: #08C6F2;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.divbtnresultSearch{
+    text-align: center;
+}
+.dropsearch{
+    text-align: right;
+    padding-bottom: 20px;
+    /* 
+    margin-top: 20px; */
+}
+.contentoverdivhead{
+    display: flex;
+    justify-content: center;
+}
+.psecsearch{
+    margin-bottom: 5px;
+}
+.hsearch{
+    text-align: center;
+    text-decoration: underline;
+}
+.roundservices{
+    width: 70px;
+   height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 3px 4px 5px #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.divroundservices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.imgroundservices{
+    width: 40px;
+}
+
+.secrest{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #12758D;
+}
+.vectorimgs{
+    width: 100%;
+    height: auto; 
+}
+.imgboximgrest{
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.1);
+}
+.boximgrest{
+    max-width: 100px;
+}
+.flexIconandImgrest{
+    display: flex;
+    justify-content: center;
+}
+.loverest{
+    color: #07B2E6;
+    margin-right: 3px;
+}
+.boxrest{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 6px;
+    box-shadow: 3px 4px 5px #08C6F2;
+    min-height: 200px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.boxservices{
+    box-shadow: 3px 4px 5px #eee;
+    min-height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.pTiltleboxrest{
+    color: #07B2E6;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.pTiltlejobboxrest{
+    color: #b8b4b4;
+
+}
+.pTitlesboxservices{
+    text-align: center;
+    font-weight: bold;
+}
+.boxcontetservices{
+    text-align: center;
+}
+.lblmoreservices{
+    text-decoration: underline;
+    color:#07B2E6 ;
+}
+.flexPlaceboxrest{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.icongpsrest{
+    color: #FE0000;
+}
+.lblaway{
+    color: #07B2E6;
+
+}
+.iconandplaceboxrest{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.placeboxrest{
+    font-size: 12px;
+}
+.boximgrest{
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+.lblmorerest{
+    color: rgba(0, 0, 0, 0.5);
+}
+.divbtnmorerest{
+    text-align: center;
+    margin-top: 20px;
+}
+.btnmorerest{
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    background-color: #08C6F2;
+    padding:10px 20px;
+}
+.imgboximgservices{
+    box-shadow: 3px 4px 5px #eee;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.boximgservices{
+    margin-top: 0px;
+    position: relative;
+}
+.iconimgdoctors{
+    max-width: 40px;
+    position: absolute;
+    top: 60px;
+    right: 27px;
+    background-color: #fff;
+    box-shadow: 3px 4px 5px #eee;
+    border-radius: 50%;
+    padding: 5px;
+}
+.divboxservices{
+    margin-bottom: 40px;
+}
+.icondoctors{
+    width: 100%;
+    height: auto;
+}
+.secprofessionals{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.hprofessionals{
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.boxprofessionals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgboxrofessionals{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.divimgboxrofessionals{
+    max-width: 200px;
+}
+.nameboxrofessionals{
+    color: #08C6F2;
+}
+.titleboxrofessionals{
+    color: #707070;
+}
+.secdownload{
+    background-image: url('../img/apps-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+.oversecdownload{
+    background-image: linear-gradient(rgba(4, 99, 121,0.4), rgba(4, 103, 126, 0.4),rgba(8, 198, 242,0.4));
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pdownload{
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.imgdownloadstores{
+    width: 100%;
+    height: auto;
+}
+.divimgdownloadstores{
+   max-width: 130px;
+   padding: 6px;
+}
+.divstoresicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/***********************End Main************************************/
+
+/******************Start Footer*****************************/
+.footer{
+    background-color: #12748D;
+    padding: 15px;
+}
+.aboutInFooter{
+    text-align: center;
+}
+.haboutInFooter{
+    color: #0AEF71;
+}
+.paboutInFooter{
+    color: #fff;
+    font-size: 12px;
+}
+.linksfooter{
+    color:#fff;
+    font-size: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.afooter{
+    color:#fff;
+}
+.afooter:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.contactinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.iconcontact{
+    color: #08C6F2;
+}
+.lblcontact{
+    color: #fff;
+}
+.rowfooter{
+    align-items: center;
+}
+.circleIcons{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #36899B;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.divcontacticons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.divimglogofooter{
+    max-width: 200px;
+}
+.imglgo{
+    width: 100%;
+    height: auto;
+}
+.centerimgfooter{
+    display: flex;
+    justify-content: center;
+}
+/******************End Footer*****************************/
+.owl-stage, .owl-item{
+    width: 100% !important;
+}
+.owl-nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.owl-prev,.owl-next{
+    background-color: #12758D;
+    padding:10px;
+    color: #fff;
+}
+.btnmoreServices{
+    margin-bottom: 20px;
+}
